@@ -1,7 +1,13 @@
 <script>
-    
     //Data
     export let item = {};
+    let open = false;
+
+    //Function
+    const toggle = () => {
+        open = !open
+    }
+
 </script>
 
 <style>
@@ -15,5 +21,6 @@
 
 <div class="expense-list-item">
     <h3>{item && item.name}</h3>
-    <p>{item && item.amount}</p>
+    {#if open}<p class="expense-item-amount">{item && item.amount}</p>{/if}
+    <button on:click={toggle}>Down Arrow</button>
 </div>
