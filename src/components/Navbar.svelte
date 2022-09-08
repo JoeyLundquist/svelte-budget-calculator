@@ -20,6 +20,8 @@
 
 <nav class="nav-container">
     <h2>Budget Calculator</h2>
-    <button class="nav-btn">Home</button>
-    <button class="nav-btn">Expenses</button>
+    <a href="/"><button class="nav-btn">Home</button></a>
+    <a href="/expenses"><button class="nav-btn">Expenses</button></a>
+    <a href="/income"><button class="nav-btn">Income</button></a>
+    <a href="/debts"><button class="nav-btn">Debts</button></a>
 </nav>

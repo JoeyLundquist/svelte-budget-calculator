@@ -1,18 +1,8 @@
 <script>
-    // Components
-    import Navbar from '../components/Navbar.svelte'
-    import ExpenseList from '../components/ExpenseList.svelte';
-    import ExpenseTotal from '../components/ExpenseTotal.svelte';
-    
-    // Data
-    import expenseData from '../sampleData/sampleExpenses'
-
-    // Variables
-    let expenses = [...expenseData];
+    import Navbar from "../components/Navbar.svelte";
 </script>
+
 <Navbar />
 
-<main>
-    <ExpenseTotal />
-    <ExpenseList /> 
-</main>
+<h2>Welcome to your own peronsal budget app</h2>
+<p>Unsure exactly what we want on the home page for now but we will figure it out soon hopefully!?!?!?</p>
