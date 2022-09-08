@@ -21,6 +21,6 @@
 
 <div class="expense-list-item">
     <h3>{item && item.name}</h3>
-    {#if open}<p class="expense-item-amount">{item && item.amount}</p>{/if}
+    {#if open}<p class="expense-item-amount">${item && item.amount}</p>{/if}
     <button on:click={toggle}>Down Arrow</button>
 </div>
