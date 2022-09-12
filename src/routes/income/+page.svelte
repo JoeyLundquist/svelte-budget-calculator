@@ -1,4 +1,5 @@
 <script>
+    // Components
     import Navbar from "../../components/Navbar.svelte";
 </script>
 
@@ -8,9 +9,10 @@
 
 <ul>
     <li>Avg monthly take home</li>
-    <li></li>
-    <li></li>
-    <li></li>
-    <li></li>
-    <li></li>
+    <li>Gross monthly</li>
+    <li>Net Monthly</li>
+    <li>Taxes</li>
+    <li>Insurance</li>
+    <li>retirement</li>
 </ul>
+

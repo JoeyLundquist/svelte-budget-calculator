@@ -3,26 +3,31 @@ export default
     {
         id: 1,
         name: 'rent',
-        amount: 1200
+        monthly: 1200,
+        total: 0
     },
     {
         id: 2,
         name: 'car payment',
-        amount: 550
+        monthly: 550,
+        total: 13000
     },
     {
         id: 3, 
         name: 'cell phone',
-        amount: 120
+        monthly: 120,
+        total: 0
     },
     {
         id: 4, 
         name: 'prime',
-        amount: 1500
+        monthly: 1500,
+        total: 24000
     },
     {
         id: 5,
         name: 'car insurance',
-        amount: 130
+        monthly: 130,
+        total: 0
     }
 ]

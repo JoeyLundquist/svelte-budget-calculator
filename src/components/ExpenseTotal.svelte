@@ -2,7 +2,7 @@
     //Data
     import expenses from '../sampleData/sampleExpenses'
     let sum = 0;
-    expenses.map(e =>sum += e.amount)
+    expenses.map(e =>sum += e.monthly)
 </script>
 <style>
     .total-expense-amount{
