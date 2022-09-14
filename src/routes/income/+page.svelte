@@ -1,6 +1,8 @@
 <script>
     // Components
     import Navbar from "../../components/Navbar.svelte";
+    import AvgMonthlyTh from "../../components/income/AvgMonthlyTH.svelte";
+    import IncomeInput from "../../components/income/IncomeInput.svelte";
 </script>
 
 <Navbar />
@@ -16,3 +18,5 @@
     <li>retirement</li>
 </ul>
 
+<IncomeInput />
+<AvgMonthlyTh />  
